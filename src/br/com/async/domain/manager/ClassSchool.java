@@ -2,7 +2,7 @@ package br.com.async.domain.manager;
 
 import java.io.Serializable;
 
-public class Gang implements Serializable {
+public class ClassSchool implements Serializable {
 
 	/**
 	 * 
@@ -13,7 +13,7 @@ public class Gang implements Serializable {
 	private String name;
 	private Discipline discipline;
 
-	public Gang(Integer code, String name, Discipline discipline) {
+	public ClassSchool(Integer code, String name, Discipline discipline) {
 		super();
 		this.code = code;
 		this.name = name;
@@ -51,7 +51,7 @@ public class Gang implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Gang other = (Gang) obj;
+		ClassSchool other = (ClassSchool) obj;
 		if (code == null) {
 			if (other.code != null)
 				return false;

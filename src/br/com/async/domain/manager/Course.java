@@ -13,9 +13,9 @@ public class Course implements Serializable {
 	private Integer code;
 	private String name;
 	private Manager manager;
-	private List<Gang> gang;
+	private List<ClassSchool> gang;
 
-	public Course(Integer code, String name, Manager manager, List<Gang> gang) {
+	public Course(Integer code, String name, Manager manager, List<ClassSchool> gang) {
 		super();
 		this.code = code;
 		this.name = name;
@@ -35,7 +35,7 @@ public class Course implements Serializable {
 		return manager;
 	}
 
-	public List<Gang> getGang() {
+	public List<ClassSchool> getGang() {
 		return gang;
 	}
 
