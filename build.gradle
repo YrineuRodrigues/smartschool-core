@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+	
+repositories{
+	mavenCentral()
+	maven {
+        url "http://repo.mycompany.com/maven2"
+    }
+}
+
+dependencies{
+//	compile "junit:junit:4.8.2"
+//	compile ('junit:junit:4.11',
+//			'br.com.caelum:vraptor:3.5.3')
+	
+}
+
+//sourceSets {
+//    main {
+//      java {
+//        srcDir 'src'
+//      }
+//      
+//    }
+//  }
