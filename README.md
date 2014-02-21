@@ -1,0 +1,2 @@
+smartschool-core
+================
